@@ -3865,3 +3865,14 @@
 		}
 
 	}
+
+	.networks a {
+		border: 1px solid white;
+		margin: 0 10px;
+		padding: 10px;
+		border-radius: 20%;
+		font-size: 15px;
+	}
+	.networks a:hover {
+		background: rgba(255, 255, 255, 0.1);
+	}
