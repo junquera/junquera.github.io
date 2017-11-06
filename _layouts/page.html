@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+{% include head.html %}
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				{% include header.html %}
+
+				{% include menu.html %}
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>{{ page.title }}</h2>
+								<p>{{ page.abstract }}</p>
+							</div>
+						</header>
+
+						<div class="wrapper">
+						  <div class="inner">
+								{{ content }}
+							</div>
+						</div>
+
+					</section>
+
+				{% include footer.html %}
+
+		{% include scripts.html %}
+
+	</body>
+</html>

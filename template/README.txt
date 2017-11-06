@@ -8,7 +8,7 @@ more on that later!) I'm back with a brand new design: Solid State, a slick new 
 pager that combines some of the ideas I've played with over at Pixelarity with an "angular"
 sort of look. Hope you dig it :)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+Demo/images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)/images
 you can use for pretty much whatever.
 
 (* = not included)
@@ -19,7 +19,7 @@ aj@lkn.io | @ajlkn
 
 Credits:
 
-	Demo Images:
+	Demo/images:
 		Unsplash (unsplash.com)
 
 	Icons:
