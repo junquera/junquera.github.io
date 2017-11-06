@@ -1,1 +1,8 @@
-theme: jekyll-theme-merlot
+title: J. Junquera
+email: javier.junquera.sanchez@gmail.com
+baseurl: ""
+url: "https://junquera.github.io"
+linkedin_username: junquera
+github_username: junquera
+
+include: ['_pages']
