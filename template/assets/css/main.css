@@ -3867,12 +3867,13 @@
 	}
 
 	.networks a {
-		border: 1px solid white;
+		/*border: 1px solid white;*/
 		margin: 0 10px;
 		padding: 10px;
 		border-radius: 20%;
 		font-size: 15px;
 	}
 	.networks a:hover {
+		transition: all 0.2s linear;
 		background: rgba(255, 255, 255, 0.1);
 	}
