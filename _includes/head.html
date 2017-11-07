@@ -1,6 +1,6 @@
 <head>
   <title>
-    {% if page.title and not page.main == true %}
+    {% if page.title and page.main != true %}
       {{ page.title }}
     {% else %}
       {{ site.title }}
