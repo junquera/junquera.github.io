@@ -1,6 +1,16 @@
-<header id="header" class="alt">
+<header id="header" {% if page.main %}class="alt"{% endif %}>
   <h1><a href="index.html">J. Junquera</a></h1>
   <nav>
     <a href="#menu">Menu</a>
   </nav>
 </header>
+
+{% include menu.html %}
+
+{% if page.main %}
+	{% include banner.html %}
+{% endif %}
+
+{% for p in site.pages %}
+  {{ p.title }}
+{% endfor %}

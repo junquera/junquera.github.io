@@ -1,0 +1,18 @@
+<section id="wrapper">
+  {% if page.main %}
+    {{ content }}
+  {% else %}
+    <header>
+      <div class="inner">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.abstract }}</p>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="inner">
+        {{ content }}
+      </div>
+    </div>
+  {% endif %}
+</section>
