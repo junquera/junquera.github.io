@@ -1,8 +1,19 @@
+# Site settings
+encoding: utf-8
+timezone: Europe/Madrid
 title: J. Junquera
 email: javier.junquera.sanchez@gmail.com
+description: >
+  Página web personal
 baseurl: ""
 url: "https://junquera.github.io"
 linkedin_username: junquera
 github_username: junquera
 
+# Build settings
+sass:
+  sass_dir: _sass
 include: ['_pages']
+exclude: ['doc']
+kramdown:
+  input: GFM
