@@ -50,6 +50,20 @@
 			font-size: 2.25em;
 			margin-bottom: _size(element-margin) * 0.4;
 			padding-bottom: _size(element-margin) * 0.2;
+			.subtitle {
+				font-size: 0.4em;
+				font-weight: initial;
+
+				&.mail {
+					&::before {
+						content: '<';
+					}
+
+					&::after {
+						content: '>';
+					}
+				}
+			}
 		}
 
 		p {
