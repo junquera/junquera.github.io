@@ -17,3 +17,8 @@ include: ['_pages']
 exclude: ['doc']
 kramdown:
   input: GFM
+
+permalink: /blog/:year/:month/:day/:title
+defaults:
+  - values:
+      layout: "page"
